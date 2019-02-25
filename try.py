@@ -1,5 +1,15 @@
 F = open("data.txt", 'r', encoding="utf8")
 str = F.read()
+
+F2 = open("stopwords-bn.txt", 'r', encoding="utf8")
+str2 = F2.read()
+str3 = str2.split("\n")
+
+
+for x in str3:
+    str=(str.replace(" "+x+" "," "))
+
+
 str2=""
 str3=""
 for x in str:
@@ -27,17 +37,12 @@ for x2 in m3:
     for x2 in s2:
         m4.append(x2)
 
-m5=[]
+m7=[]
 for x in m4:
-    x2=x.replace('’',"")
-    m5.append(x2)
-m6=[]
-for x in m5:
-    x2=x.replace('‘',"")
-    m6.append(x2)
-for x in m6:
-    if len(x)!=0:
-        print(x)
+    if len(x)!= 0:
+        m7.append(x)
 
 
 
+for x in m7:
+    print(x)
