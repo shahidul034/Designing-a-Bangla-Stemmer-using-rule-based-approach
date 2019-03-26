@@ -1,53 +1,50 @@
-graph = {'Oradea': ['Zerind', 'Sibiu'], 'Zerind': ['Oradea', 'Arad'], 'Arad': ['Zerind', 'Timisoara', 'Sibiu'],
-         'Timisoara': ['Arad', 'Lugoj'], 'Lugoj': ['Timisoara', 'Mehadia'], 'Mehadia': ['Lugoj', 'Dobreta'],
-         'Dobreta': ['Mehadia', 'Craiova'], 'Craiova': ['Dobreta', 'Rimnicu Vilcea', 'Pitesti'],
-         'Sibiu': ['Arad', 'Oradea', 'Rimnicu Vilcea', 'Fagaras'], 'Rimnicu Vilcea': ['Sibiu', 'Craiova', 'Pitesti'],
-         'Fagaras': ['Sibiu', 'Bucharest'], 'Pitesti': ['Bucharest', 'Rimnicu Vilcea', 'Craiova'],
-         'Bucharest': ['Fagaras', 'Pitesti', 'Giurgiu', 'Urziceni'], 'Giurgiu': ['Bucharest'],
-         'Urziceni': ['Bucharest', 'Hirsova', 'Vaslui'], 'Hirsova': ['Urziceni', 'Eforie'], 'Eforie': ['Hirsova'],
-         'Vaslui': ['Urziceni', 'Iasi'], 'Iasi': ['Vaslui', 'Neamt'], 'Neamt': ['Iasi']}
-f=open("file2.txt","w")
-str=""
-tup={}
-'''
-for x in graph.items():
-    #str+=(x[0]+" ")
-    #print(x[0]," ",end="")
-    for x1 in x[1]:
-        print(x[0]," ",x1)
-        str+=(x[0]+" "+x1+"\n")
-f.write(str)
-'''
-f2=open(r"C:\Users\Inception\Desktop\new 3.txt","r")
-str=f2.read()
-str2=str.split('\n')
-m=[]
-for x in str2:
-    s=x.split(" ")
-    ss=""
-    #print(s[1])
+import math
+def nxt_prime_num(n):
+    x=2
+    L={}
+    for x in range(1,n+100):
+        L[x]=0
+    L[2]=0
+    for x1 in range(2,n+100):
+        for x in range(2,n+100):
+            L[x*x1]=1
+    for x in range(2,n+100):
+        if L[x]==0 and x>n:
+            print("prime: ",x)
+            return x
+def encrypt(msg,puk,n):
+    msg1=pow(msg,puk)
+    return msg1%n
 
-    '''
-    
-    m=0
-    for mm in s:
-        print(s[m])
-        m+=1
-    '''
+def decrypt(msg,prk,n):
+    msg1=pow(msg,prk)
+    #print("de: ",msg1)
+    return msg1%n
 
-    
-    
-    
-    if s.__contains__("Rimnicu"):
-        if s[0]=="Rimnicu":
-            ss += (s[0] + " " + s[1])
-            print(ss+","+s[2]+","+s[3])
-            #tup[ss][s[2]]=int(s[3])
+
+def rsa(p,q):
+    n=p*q
+    totient=(p-1)*(q-1)
+    e=2
+    while(e<totient):
+        if math.gcd(e,totient)==1  :
+            break
         else:
-            ss += (s[1] + " " + s[2])
-            print(s[0] + "," + ss +"," +s[3])
-            #tup[s[0]][ss] = int(s[3])
+            e += 1
+    print("public key: ",e)
+    k=2
+    d = (1 + (k * totient)) / e
+    print("private key: ", int(d))
+    aa=[]
+    aa.append(float(e))
+    aa.append(float(d))
+    aa.append(float(n))
+    return aa
 
-    else:
-        print(s)
-        tup[s[0]][s[1]] = int(s[2])
+msg=344
+aa=rsa(nxt_prime_num(2),nxt_prime_num(6))
+en=encrypt(msg,aa[0],aa[2])
+print(en)
+
+de=decrypt(en,aa[1],aa[2])
+print(de)

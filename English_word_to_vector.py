@@ -7,11 +7,7 @@ for sentence in sentences:
     print(sentence)
     print()
 
-#Word Tokenization
-for sentence in sentences:
-    words = nltk.word_tokenize(sentence)
-    print(words)
-    print()
+
 
 
 #Text Lemmatization and Stemming
@@ -42,11 +38,6 @@ sentence = "Backgammon is one of the oldest known board games."
 
 words = nltk.word_tokenize(sentence)
 without_stop_words = [word for word in words if not word in stop_words]
+
 print(without_stop_words)
 
-#Regex
-
-import re
-sentence = "The development of snowboarding was inspired by skateboarding, sledding, surfing and skiing."
-pattern = r"[^\w]"
-print(re.sub(pattern, " ", sentence))
