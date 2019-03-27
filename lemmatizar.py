@@ -59,31 +59,18 @@ def replace(x,x2):
     return str
 
 
-def match(x,x2):
-    v = len(x) - 1
-    v2 = len(x2) - 1
-    cnt = v2 + 1
-    cnt2 = 0
-    while (v2 >= 0 and v>=0):
-        if x[v] == x2[v2]:
-            cnt2 += 1
-        v2 -= 1
-        v -= 1
-    if cnt == cnt2:
-        return True
-    else:
-        return False
+def match(str,list3):
+    for x in list3:
+        if str[len(str)-len(x):]==x:
+            str=str[:-len(x)]
+            match(str,list3)
+    return str
 
 unique(bibokti2)
 
-
 for x in plain_text2:
-    for x2 in list3:
-        if match(x,x2) and map[x]==0:
-            map[x]=1
-            str=replace(x,len(x2))
-            #str=check_again(str,list3)
-            print(str)
+    str=match(x,list3);
+    print(str)
 
 
 
