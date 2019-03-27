@@ -22,15 +22,6 @@ def check_again(str,list3):
             str=str[:-len(x)]
             check_again(str, list3)
 
-
-
-def last_char_roishi(str):
-    str=str[len(str)-1:]
-    if str=="ই":
-        return True
-    else:
-        return False
-
 def place_dari(str):
     for x in mm:
         if str==x:
