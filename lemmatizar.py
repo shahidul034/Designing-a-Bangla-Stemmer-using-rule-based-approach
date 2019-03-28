@@ -2,11 +2,14 @@ F = open(r"C:\Users\Inception\PycharmProjects\FIRSTproject\data_corpus", 'r', en
 plain_text = F.read()
 F2 = open(r"bibokti",'r', encoding="utf8")
 bibokti=F2.read()
+F3 = open(r"2nd_step_file",'r', encoding="utf8")
+bibokti2_1=F3.read()
 bibokti2=bibokti.split(" ")
+bibokti3=bibokti2_1.split(" ")
 plain_text2=plain_text.split(" ")
 
 
-list3=[]
+
 map={}
 mm=[]
 dari='া'
@@ -14,13 +17,7 @@ dari='া'
 for x in plain_text2:
     map[x]=0
 
-def check_again(str,list3):
-    if str[:-1]==dari:
-        return str
-    for x in list3:
-        if str[len(str)-len(x):]==x:
-            str=str[:-len(x)]
-            check_again(str, list3)
+
 
 def place_dari(str):
     for x in mm:
@@ -28,8 +25,8 @@ def place_dari(str):
             return False
     return True
 def unique(list1):
+    list3 = []
     list_set = set(list1)
-
     unique_list = (list(list_set))
     for x in unique_list:
         if len(x)>0 :
@@ -38,17 +35,15 @@ def unique(list1):
                 mm.append(x[1:])
             else:
                 list3.append(x)
+    return list3
 
-def replace(x,x2):
-    x2 = -x2
-    str = x[:x2]
-    if place_dari(str):
-        #str+=dari
-        pass
-    if last_char_roishi(str):
-        str=str[:-1]
+
+def sec_match(str,list3):
+    for x in list3:
+        if str[len(str)-len(x):]==x:
+            str=str[:-len(x)]
+            match(str,list3)
     return str
-
 
 def match(str,list3):
     for x in list3:
@@ -57,10 +52,13 @@ def match(str,list3):
             match(str,list3)
     return str
 
-unique(bibokti2)
+list4=unique(bibokti2)
+list5=unique(bibokti3)
 
 for x in plain_text2:
-    str=match(x,list3);
+    str=match(x,list4);
+    str=sec_match(str,list5);
+    str = sec_match(str, list5);
     print(str)
 
 
