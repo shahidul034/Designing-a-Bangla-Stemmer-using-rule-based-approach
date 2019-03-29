@@ -13,10 +13,18 @@ def match(str,list3):
             match(str,list3)
             break
     return str
+def again_check(str):
+    if str[-3:]=="েরট":
+        return str[:-3]
+    elif str[-2:0]=="ের":
+        return str[-2:0]
 
+    return str
 
 for x in data2:
+    print(x,"--> ",end="")
     str=match(x,stemmer_data2);
+    str=again_check(str)
     print(str)
 
 
