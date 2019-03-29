@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b933fd2b-79fe-4754-92a3-bf8b32bd9828" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/text_file/bangla_stemmer2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_file/bochon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_file/bochon_example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_file/rafi_data_original2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_file/file2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_file/simple movie reviews.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_file/test_txt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stemmer(2nd).py" beforeDir="false" afterPath="$PROJECT_DIR$/stemmer(2nd).py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,34 +36,40 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="2nd_step_file" value="122" />
+          <entry key="bangla_stemmer2" value="2" />
           <entry key="bangla_stemmer_rafi" value="70" />
           <entry key="bibokti" value="162" />
           <entry key="bochon" value="9" />
+          <entry key="bochon_example" value="5" />
           <entry key="bochon_porbo" value="9" />
           <entry key="data_corpus" value="10" />
-          <entry key="py" value="11501" />
+          <entry key="py" value="11782" />
           <entry key="rafi_data" value="16" />
+          <entry key="rafi_data_original2" value="6" />
           <entry key="txt" value="168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="566" />
-          <entry key="Python" value="11501" />
+          <entry key="PLAIN_TEXT" value="579" />
+          <entry key="Python" value="11782" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="2nd_step_file" value="4" />
-          <entry key="bangla_stemmer_rafi" value="2" />
+          <entry key="bangla_stemmer2" value="2" />
+          <entry key="bangla_stemmer_rafi" value="3" />
           <entry key="bibokti" value="6" />
           <entry key="bochon" value="2" />
+          <entry key="bochon_example" value="1" />
           <entry key="bochon_porbo" value="2" />
           <entry key="csv" value="1" />
           <entry key="data_corpus" value="2" />
           <entry key="ipynb" value="12" />
-          <entry key="py" value="71" />
+          <entry key="py" value="75" />
           <entry key="rafi_data" value="2" />
+          <entry key="rafi_data_original2" value="1" />
           <entry key="tsv" value="1" />
           <entry key="txt" value="45" />
         </counts>
@@ -69,14 +77,72 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="12" />
-          <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="71" />
+          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="Python" value="75" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stemmer(2nd).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="63" selection-start-line="63" selection-end-line="67" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/text_file/bochon.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rafi_stemmer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <folding>
+                <marker date="1553843070910" expanded="true" signature="522:639" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text_file/bangla_stemmer_rafi">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="137" selection-start-column="137" selection-end-column="137" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text_file/bangla_stemmer2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text_file/bochon_example">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="297" lean-forward="true" selection-start-column="297" selection-end-column="297" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -152,11 +218,17 @@
         <option value="$PROJECT_DIR$/pra4.py" />
         <option value="$PROJECT_DIR$/text_file/bangla_stemmer_rafi" />
         <option value="$PROJECT_DIR$/rafi_stemmer.py" />
+        <option value="$PROJECT_DIR$/text_file/bangla_stemmer2" />
+        <option value="$PROJECT_DIR$/text_file/rafi_data_original2" />
+        <option value="$PROJECT_DIR$/stemmer(2nd).py" />
+        <option value="$PROJECT_DIR$/text_file/bochon_example" />
+        <option value="$PROJECT_DIR$/text_file/bochon.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="820" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="7" />
     <option name="width" value="1100" />
     <option name="height" value="1080" />
   </component>
@@ -173,6 +245,11 @@
             <path>
               <item name="FIRSTproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FIRSTproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FIRSTproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FIRSTproject" type="462c0819:PsiDirectoryNode" />
+              <item name="text_file" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,7 +279,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rafi_stemmer">
+  <component name="RunManager" selected="Python.bochon">
+    <configuration name="bochon" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FIRSTproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/text_file" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text_file/bochon.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="lemmatizar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FIRSTproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,41 +385,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="try2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FIRSTproject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/try2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.pra4" />
-      <item itemvalue="Python.try2" />
       <item itemvalue="Python.lemmatizar" />
       <item itemvalue="Python.rafi_stemmer" />
       <item itemvalue="Python.stemmer(2nd)" />
+      <item itemvalue="Python.bochon" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bochon" />
         <item itemvalue="Python.rafi_stemmer" />
         <item itemvalue="Python.stemmer(2nd)" />
         <item itemvalue="Python.pra4" />
         <item itemvalue="Python.lemmatizar" />
-        <item itemvalue="Python.try2" />
       </list>
     </recent_temporary>
   </component>
@@ -364,18 +441,26 @@
       <option name="project" value="LOCAL" />
       <updated>1553843087124</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added">
+      <created>1553848170624</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553848170624</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-6" y="6" width="880" height="864" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.105750166" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18979834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49834764" visible="true" weight="0.30201343" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49834764" visible="true" weight="0.30779755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -407,18 +492,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="added" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pra3.ipynb" />
-    <entry file="file://$PROJECT_DIR$/pra.ipynb" />
-    <entry file="file://$PROJECT_DIR$/musfiq.py" />
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/data.txt" />
-    <entry file="file://$PROJECT_DIR$/English_word_to_vector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="26" column="81" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/LAB/AI Laboratory/code/Blind-Un-Informed-and-Heuristic-informed-Strategies/Greedy best-first search .py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -505,34 +578,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stemmer(2nd).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pra4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rafi_stemmer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="19" />
-          <folding>
-            <marker date="1553843070910" expanded="true" signature="522:639" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text_file/bangla_stemmer_rafi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="137" selection-start-column="137" selection-end-column="137" />
         </state>
       </provider>
     </entry>
@@ -598,6 +647,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stemmer(1st).py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rafi_stemmer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <marker date="1553843070910" expanded="true" signature="522:639" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bangla_stemmer2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stemmer(2nd).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="63" selection-start-line="63" selection-end-line="67" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_file/rafi_data_original2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_file/bangla_stemmer2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_file/bangla_stemmer_rafi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="137" selection-start-column="137" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_file/bochon_example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="297" lean-forward="true" selection-start-column="297" selection-end-column="297" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_file/bochon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
