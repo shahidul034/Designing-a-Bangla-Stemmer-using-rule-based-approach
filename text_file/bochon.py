@@ -35,19 +35,19 @@ while x<=(len(bochon_example)-1):
         bochon_example[x]=bochon_example[x]+" "+bochon_example[x+1]
         bochon_example[x+1]=""
         x+=1
-    elif bochon_example[x]=="লাল":
+    elif bochon_example[x]=="লাল" and bochon_example[x+1]=="লাল":
         bochon_example[x]=bochon_example[x]+" "+bochon_example[x+1]+" "+bochon_example[x+2]
         bochon_example[x+1]=""
         bochon_example[x + 2] = ""
         x+=1
         x+=1
-    elif bochon_example[x]=="কাড়ি":
+    elif bochon_example[x]=="কাড়ি" and bochon_example[x+1]=="কাড়ি":
         bochon_example[x]=bochon_example[x]+" "+bochon_example[x+1]+" "+bochon_example[x+2]
         bochon_example[x+1]=""
         bochon_example[x + 2] = ""
         x+=1
         x+=1
-    elif bochon_example[x]=="বড়":
+    elif bochon_example[x]=="বড়" and bochon_example[x+1]=="বড়":
         bochon_example[x]=bochon_example[x]+" "+bochon_example[x+1]+" "+bochon_example[x+2]
         bochon_example[x+1]=""
         bochon_example[x + 2] = ""
@@ -58,12 +58,23 @@ bochon_example2=[]
 for x in bochon_example:
     if len(x)>0:
         bochon_example2.append(x)
+        #print(x)
+x=0
+while x<=(len(bochon_example2)-1):
+    str=bochon_example2[x]
+    if str[:4]=="অজস্র":
+        print(str[:4])
+    elif str[:4]=="অঢেল":
+        print(str[5:])
+    elif str[:3]=="লাল" and str[4:7]=="লাল":
+        print(str[4:7],"",str[8:])
 
+    elif str[:4]=="কাড়ি" and str[5:9]=="কাড়ি":
+        print(str[:4],"",str[10:])
 
-
-
-
-for x in bochon_example2:
-
-    str=match(x,bochon_spilit)
-    #print(x," --> ",str)
+    elif str[:2]=="বড়" and str[3:5]=="বড়":
+        print(str[:2],"",str[6:])
+    else:
+        str = match(bochon_example2[x], bochon_spilit)
+        print(str)
+    x+=1

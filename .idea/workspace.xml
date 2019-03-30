@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b933fd2b-79fe-4754-92a3-bf8b32bd9828" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/text_file/bangla_stemmer2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_file/bochon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_file/bochon_example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text_file/rafi_data_original2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stemmer(2nd).py" beforeDir="false" afterPath="$PROJECT_DIR$/stemmer(2nd).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pra4.py" beforeDir="false" afterPath="$PROJECT_DIR$/pra4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_file/bochon.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_file/bochon.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +39,7 @@
           <entry key="bochon_example" value="5" />
           <entry key="bochon_porbo" value="9" />
           <entry key="data_corpus" value="10" />
-          <entry key="py" value="11782" />
+          <entry key="py" value="11987" />
           <entry key="rafi_data" value="16" />
           <entry key="rafi_data_original2" value="6" />
           <entry key="txt" value="168" />
@@ -52,7 +48,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="579" />
-          <entry key="Python" value="11782" />
+          <entry key="Python" value="11987" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -67,7 +63,7 @@
           <entry key="csv" value="1" />
           <entry key="data_corpus" value="2" />
           <entry key="ipynb" value="12" />
-          <entry key="py" value="75" />
+          <entry key="py" value="76" />
           <entry key="rafi_data" value="2" />
           <entry key="rafi_data_original2" value="1" />
           <entry key="tsv" value="1" />
@@ -78,39 +74,27 @@
         <counts>
           <entry key="IPNB" value="12" />
           <entry key="PLAIN_TEXT" value="72" />
-          <entry key="Python" value="75" />
+          <entry key="Python" value="76" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stemmer(2nd).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="63" selection-start-line="63" selection-end-line="67" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/text_file/bochon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="312">
+              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rafi_stemmer.py">
+        <entry file="file://$PROJECT_DIR$/pra4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-              <folding>
-                <marker date="1553843070910" expanded="true" signature="522:639" ph="..." />
-              </folding>
+            <state relative-caret-position="33">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -215,18 +199,18 @@
         <option value="$PROJECT_DIR$/bangla_stemmer_rafi.py" />
         <option value="$PROJECT_DIR$/bangla_stemmer_rafi" />
         <option value="$PROJECT_DIR$/rafi_data" />
-        <option value="$PROJECT_DIR$/pra4.py" />
         <option value="$PROJECT_DIR$/text_file/bangla_stemmer_rafi" />
         <option value="$PROJECT_DIR$/rafi_stemmer.py" />
         <option value="$PROJECT_DIR$/text_file/bangla_stemmer2" />
         <option value="$PROJECT_DIR$/text_file/rafi_data_original2" />
         <option value="$PROJECT_DIR$/stemmer(2nd).py" />
         <option value="$PROJECT_DIR$/text_file/bochon_example" />
+        <option value="$PROJECT_DIR$/pra4.py" />
         <option value="$PROJECT_DIR$/text_file/bochon.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="7" />
     <option name="width" value="1100" />
@@ -395,9 +379,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.bochon" />
+        <item itemvalue="Python.pra4" />
         <item itemvalue="Python.rafi_stemmer" />
         <item itemvalue="Python.stemmer(2nd)" />
-        <item itemvalue="Python.pra4" />
         <item itemvalue="Python.lemmatizar" />
       </list>
     </recent_temporary>
@@ -448,19 +432,26 @@
       <option name="project" value="LOCAL" />
       <updated>1553848170624</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added">
+      <created>1553887971624</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553887971624</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="6" width="880" height="864" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18979834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.105750166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49834764" visible="true" weight="0.30779755" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49834764" visible="true" weight="0.30201343" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -578,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pra4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/text_file/file2.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -653,25 +637,8 @@
     <entry file="file://$PROJECT_DIR$/stemmer(1st).py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/rafi_stemmer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <marker date="1553843070910" expanded="true" signature="522:639" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bangla_stemmer2">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stemmer(2nd).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="63" selection-start-line="63" selection-end-line="67" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/text_file/rafi_data_original2">
       <provider selected="true" editor-type-id="text-editor">
@@ -701,10 +668,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stemmer(2nd).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rafi_stemmer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <marker date="1553843070910" expanded="true" signature="522:639" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pra4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/text_file/bochon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="312">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>
