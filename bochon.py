@@ -17,7 +17,7 @@ def match(str,list3):
 
 
 
-F4 = open(r"bochon",'r', encoding="utf8")
+F4 = open(r"C:\Users\Inception\PycharmProjects\FIRSTproject\text_file\bochon",'r', encoding="utf8")
 bochon=F4.read()
 bochon_spilit=bochon.split(" ")
 

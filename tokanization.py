@@ -1,22 +1,27 @@
-F = open("data.txt", 'r', encoding="utf8")
+F = open(r"C:\Users\Inception\PycharmProjects\FIRSTproject\text_file\data.txt", 'r', encoding="utf8")
 str = F.read()
 
-F2 = open("stopwords-bn.txt", 'r', encoding="utf8")
+F2 = open(r"C:\Users\Inception\PycharmProjects\FIRSTproject\text_file\stopwords-bn.txt", 'r', encoding="utf8")
 str2 = F2.read()
 str3 = str2.split("\n")
 
-
+### Stop word remove
 for x in str3:
     str=(str.replace(" "+x+" "," "))
 
 
+### Sentence tokenization
+
 str2=""
 str3=""
+str4=""
 for x in str:
     str2+=(x.replace('‘', " "))
 for x in str2:
     str3+=(x.replace('’', " "))
-s=str3.split('।')
+for x in str3:
+    str4+=(x.replace(',', " "))
+s=str4.split('।')
 
 
 m2=[]
