@@ -48,18 +48,23 @@ def unique( list1):
 
 # If some example do not stem 1st iteration so 2nd iteration to stem those example
 def sec_match(str,list3):
+
+
     for x in list3:
         if str[len(str)-len(x):]==x:
+
             str=str[:-len(x)]
             match(str,list3)
     return str
 # 1st stemmer
 def match(str,list3):
+    match_str=[]
     for x in list3:
         if str[len(str)-len(x):]==x:
+            match_str.append(x)
             str=str[:-len(x)]
             match(str,list3)
-    return str
+    return str,match_str
 
 # Main function
 # create unique list
@@ -68,10 +73,11 @@ list5=unique(bibokti3)
 
 
 for x in plain_text2:
-    str=match(x,list4)
+    str,match_str=match(x,list4)
     str=sec_match(str,list5)
     str = sec_match(str, list5)
-    print(x," --> ",str)
+    match_str.reverse()
+    print(x," --> ",str," +[",''.join(match_str),"]")
 
 
 
